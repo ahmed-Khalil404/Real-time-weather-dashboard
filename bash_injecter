@@ -1,0 +1,11 @@
+#!/bin/bash
+while true; do
+data=$(grep -o '\(-\?[0-9]\+\),\(-\?[0-9]\+\),\(-\?[0-9]\+\),\(-\?[0-9]\+\)' ~/Documents/final/log.txt)
+
+IFS=',' read -r temperature pressure altitude humidity <<< "$data"
+
+curl -X POST "http://localhost:8086/api/v2/write?bucket=khalil&org=khalil" \
+  -H "Authorization: Token Ms0Kij_URidvjZKgrYkLQHplYNAj1Ty70g7s7L7hXx1uFZusC1p-oaYff6w3HQ2XEbIrE6s0L5fIMx0X7jgvqA==" \
+  -H "Content-Type: text/plain; charset=utf-8" \
+  --data-raw "SmartWeather,location=Weather temperature=$temperature,pressure=$pressure,altitude=$altitude,humidity=$humidity"
+done
