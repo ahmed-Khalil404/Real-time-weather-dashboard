@@ -63,7 +63,7 @@ Ce projet permet une surveillance environnementale dans des zones reculées où 
 
 ---
 
-## 🚀 **Instructions de déploiement**
+## **Instructions de déploiement**
 
 ### **1. Configuration du matériel**
 - Connecter le **BME280** via **I2C**.
@@ -106,6 +106,6 @@ Ce projet permet une surveillance environnementale dans des zones reculées où 
 
 ---
 
-## 🎉 **Conclusion**
+## **Conclusion**
 
 Le **Tableau de bord météo en temps réel** offre une solution complète de surveillance environnementale par satellite. Grâce à l'intégration de **MQTT**, **Node-RED**, **InfluxDB** et **Grafana**, vous pouvez surveiller et visualiser facilement les conditions météorologiques en temps réel depuis des lieux éloignés. 🌐
