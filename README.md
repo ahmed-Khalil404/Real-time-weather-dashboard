@@ -25,7 +25,7 @@ Ce projet permet une surveillance environnementale dans des zones reculées où 
 
 ---
 
-## 🔄 **Architecture du système**
+## **Architecture du système**
 
 ### **Flux de données**
 
@@ -47,7 +47,7 @@ Ce projet permet une surveillance environnementale dans des zones reculées où 
 
 ---
 
-## 💻 **Composants logiciels**
+## **Composants logiciels**
 
 ### **Firmware (STM32U585CIT6)**
 
@@ -98,7 +98,7 @@ Ce projet permet une surveillance environnementale dans des zones reculées où 
 
 ---
 
-## 🚀 **Améliorations futures**
+## **Améliorations futures**
 
 - Ajouter d'autres capteurs (ex : **surveillance des gaz** ).
 - Implémenter de la **détection d'anomalies** automatisée pour les alertes.
