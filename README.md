@@ -4,13 +4,13 @@ Le **Tableau de bord météo en temps réel** permet de surveiller l'environneme
 
 ---
 
-## 🚀 **Vue d'ensemble du projet**
+## **Vue d'ensemble du projet**
 
 Ce projet permet une surveillance environnementale dans des zones reculées où **l'accès direct à Internet** est impossible. Les données collectées sont transmises par satellite et traitées en temps réel pour fournir des informations précises.
 
 ---
 
-## 🛠 **Composants matériels**
+##**Composants matériels**
 
 ### Spécifications EchoStar-Term-7
 
