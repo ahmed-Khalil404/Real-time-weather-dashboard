@@ -8,7 +8,7 @@ Adafruit_BME280 sensor;
 int temp;
 int press;
 int alt;
-int hum;
+int hum; 
 
 #define SEA_LEVEL_PRESSURE (1013.25)
 #define SWITCH_CTRL_DEFAULT true
