@@ -1,6 +1,6 @@
 # Tableau de bord météo en temps réel 🌍☁️
 
-Le **Tableau de bord météo en temps réel** permet de surveiller l'environnement via des satellites. Ce système utilise le module **EchoStar-Term-7** pour collecter, transmettre et visualiser des données comme la température, la pression, l'humidité et l'altitude. Les données passent par une chaîne de traitement incluant **MQTT**, **Node-RED**, **InfluxDB** et **Grafana**.
+Le **Tableau de bord météo en temps réel** permet de surveiller l'environnement via des satellites. Ce système utilise le module **EchoStar-Term-7** pour collecter, transmettre et visualiser des données comme la température, la pression, l'humidité et l'altitude. Les données passent par une chaîne de traitement incluant **MQTT**, **Node-RED**, **InfluxDB** et **Grafana**. 
 
 ---
 
